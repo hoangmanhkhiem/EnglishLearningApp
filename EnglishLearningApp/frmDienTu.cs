@@ -63,6 +63,7 @@ namespace EnglishLearningApp
             {
                 answerBoxes[i].Text = _exercise.Dapantungcau[i];
                 answerBoxes[i].BackColor = Color.White;
+                richTextBoxContent.Text = _exercise.Dapan;
             }
         }
 
@@ -72,6 +73,7 @@ namespace EnglishLearningApp
             {
                 txtBox.Clear();
                 txtBox.BackColor = Color.White;
+                richTextBoxContent.Text = _exercise.Debai;
             }
         }
 
